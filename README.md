@@ -4,7 +4,7 @@
 This repository contains test scenarios written in Gherkin syntax for Bing.com search functionality.
 
 ## Test Scenarios
-The test scenarios are in to two feature files:
+The test scenarios are into two feature files:
 
 #### Copilot search
 * Use copilot to gather basic information about the "Prowly media monitoring module"
