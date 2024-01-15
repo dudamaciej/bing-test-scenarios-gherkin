@@ -1,6 +1,11 @@
 Feature: Bing.com search phrase with content category filtering
     Allow users to search phrase and filter results by selecting the desired content category.
 
+    Background:
+        Given the user is on the bing.com home page
+        And the user is not logged in
+        And the language is set to "English"
+
     Scenario: Search for a "Prowly Media Monitoring" phrase
         Given the user is on the bing.com search page
         When the user searches for the phrase "Prowly Media Monitoring"
